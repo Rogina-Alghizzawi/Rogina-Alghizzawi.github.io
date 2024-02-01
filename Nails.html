@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nail Services</title>
+    <link rel="stylesheet" type="text/css" href="nails-style.css">
+    <script src="Nails.js" defer></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <button id="menu-btn" onclick="toggleMenu()">&#9776; </button>
+
+    <div id="side-menu" onmouseover="openMenu()" onmouseout="closeMenu()">
+        <a href="Homepage.html">Home</a>
+        <a href="Massage.html">Massage</a>
+       <a href="#manicure">Manicure</a>
+       <a href="#pedicure">Pedicure</a>
+       <a href="#nail-art">Nail-art</a>
+    </div>
+
+    <main>
+        <section id="cover-section">
+            <video id="cover-video" autoplay loop muted>
+                <source src="video/Untitled video - Made with Clipchamp (2).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="services-section">
+            <article>
+                <section id="manicure" class="service-box">
+                    <img src="image/Manicure.jpg" alt="Manicure">
+                    <h2>Manicure</h2>
+                    <p>Pamper your hands with our luxurious manicure services. We offer a variety of options to suit your preferences, from classic to gel manicures.</p>
+                    <button   class="book-now">Book Now</button>
+                </section>
+
+                <section id="pedicure" class="service-box">
+                    <img src="image/Pedicure.jpg" alt="Pedicure">
+                    <h2>Pedicure</h2>
+                    <p>Relax and rejuvenate with our soothing pedicure treatments. Choose from our range of pedicure services to keep your feet looking and feeling great.</p>
+                    <button  class="book-now">Book Now</button>
+                </section>
+
+                <section id="nail-art" class="service-box">
+                    <img src="image/Nail Art.jpg" alt="Nail Art">
+
+                    <h2>Nail Art</h2>
+                    <p>Express your creativity with our stunning nail art designs. Our skilled nail artists can turn your nails into works of art that reflect your unique style.</p>
+                    <button  class="book-now">Book Now</button>
+                </section>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Nail Services</p>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+}
+#side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+}
+
+#side-menu a {
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#side-menu a:hover {
+    color: #f1f1f1;
+}
+
+#menu-btn {
+    font-size: 20px;
+    margin: 15px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#menu-btn:hover {
+    background-color: #555;
+}
+
+#cover-section {
+    position: relative;
+}
+
+#cover-video {
+    width: 100%;
+    height: auto;
+}
+ 
+#services-section {
+    display: flex;
+    flex-direction: row; /* Stack the service boxes horizontally */
+    justify-content: center; /* Center the boxes horizontally */
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    background: #f4f3ee;
+    border: 1px solid #ddd;
+    margin: 80px auto; /* Center the entire service box vertically */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+
+.service-box p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #aa4465;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+.service-box img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px; 
+    border-radius: 5px;
+}
+
+.service-box h2 {
+    color: #982D5E;
+    text-align: center;
+}
+
+.service-box p {
+    margin-top: 10px;
+    
+}
+
+.service-box button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #aa4465;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.service-box button:hover {
+    color: #aa4465;
+    background: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+}
